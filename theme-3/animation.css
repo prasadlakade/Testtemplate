@@ -16,10 +16,10 @@
 }
 
 .fadeInLeft-animation {
-    -webkit-animation: fadeInLeft 5s 1; /* Safari 4+ */
-    -moz-animation:    fadeInLeft 5s 1; /* Fx 5+ */
-    -o-animation:      fadeInLeft 5s 1; /* Opera 12+ */
-    animation:         fadeInLeft 5s 1; /* IE 10+, Fx 29+ */
+    -webkit-animation: fadeInLeft 2s 1; /* Safari 4+ */
+    -moz-animation:    fadeInLeft 2s 1; /* Fx 5+ */
+    -o-animation:      fadeInLeft 2s 1; /* Opera 12+ */
+    animation:         fadeInLeft 2s 1; /* IE 10+, Fx 29+ */
 }
 @-webkit-keyframes fadeInRight {
     0%   { opacity: 0; margin-right: -40px;}
@@ -39,10 +39,10 @@
 }
 
 .fadeInRight-animation {
-    -webkit-animation: fadeInRight 5s 1; /* Safari 4+ */
-    -moz-animation:    fadeInRight 5s 1; /* Fx 5+ */
-    -o-animation:      fadeInRight 5s 1; /* Opera 12+ */
-    animation:         fadeInRight 5s 1; /* IE 10+, Fx 29+ */
+    -webkit-animation: fadeInRight 2s 1; /* Safari 4+ */
+    -moz-animation:    fadeInRight 2s 1; /* Fx 5+ */
+    -o-animation:      fadeInRight 2s 1; /* Opera 12+ */
+    animation:         fadeInRight 2s 1; /* IE 10+, Fx 29+ */
 }
 
 @-webkit-keyframes fadeInUp {
