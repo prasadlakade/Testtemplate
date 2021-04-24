@@ -1,0 +1,70 @@
+@-webkit-keyframes fadeInLeft {
+    0%   { opacity: 0; margin-left: -40px;}
+    100% { opacity: 1; margin-left: 0;}
+}
+@-moz-keyframes fadeInLeft {
+    0%   { opacity: 0; margin-left: -40px;}
+    100% { opacity: 1; margin-left: 0;}
+}
+@-o-keyframes fadeInLeft {
+    0%   { opacity: 0; margin-left: -40px;}
+    100% { opacity: 1; margin-left: 0;}
+}
+@keyframes fadeInLeft {
+    0%   { opacity: 0; margin-left: -40px;}
+    100% { opacity: 1; margin-left: 0;}
+}
+
+.fadeInLeft-animation {
+    -webkit-animation: fadeInLeft 5s 1; /* Safari 4+ */
+    -moz-animation:    fadeInLeft 5s 1; /* Fx 5+ */
+    -o-animation:      fadeInLeft 5s 1; /* Opera 12+ */
+    animation:         fadeInLeft 5s 1; /* IE 10+, Fx 29+ */
+}
+@-webkit-keyframes fadeInRight {
+    0%   { opacity: 0; margin-right: -40px;}
+    100% { opacity: 1; margin-right: 0;}
+}
+@-moz-keyframes fadeInRight {
+    0%   { opacity: 0; margin-right: -40px;}
+    100% { opacity: 1; margin-right: 0;}
+}
+@-o-keyframes fadeInRight {
+    0%   { opacity: 0; margin-right: -40px;}
+    100% { opacity: 1; margin-right: 0;}
+}
+@keyframes fadeInRight {
+    0%   { opacity: 0; margin-right: -40px;}
+    100% { opacity: 1; margin-right: 0;}
+}
+
+.fadeInRight-animation {
+    -webkit-animation: fadeInRight 5s 1; /* Safari 4+ */
+    -moz-animation:    fadeInRight 5s 1; /* Fx 5+ */
+    -o-animation:      fadeInRight 5s 1; /* Opera 12+ */
+    animation:         fadeInRight 5s 1; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes fadeInUp {
+    0%   { opacity: 0; margin-bottom: -40px;}
+    100% { opacity: 1; margin-bottom: 0;}
+}
+@-moz-keyframes fadeInUp {
+    0%   { opacity: 0; margin-bottom: -40px;}
+    100% { opacity: 1; margin-bottom: 0;}
+}
+@-o-keyframes fadeInUp {
+    0%   { opacity: 0; margin-bottom: -40px;}
+    100% { opacity: 1; margin-bottom: 0;}
+}
+@keyframes fadeInUp {
+    0%   { opacity: 0; margin-bottom: -40px;}
+    100% { opacity: 1; margin-bottom: 0;}
+}
+
+.fadeInUp-animation {
+    -webkit-animation: fadeInUp 2.5s 1; /* Safari 4+ */
+    -moz-animation:    fadeInUp 2.5s 1; /* Fx 5+ */
+    -o-animation:      fadeInUp 2.5s 1; /* Opera 12+ */
+    animation:         fadeInUp 2.5s 1; /* IE 10+, Fx 29+ */
+  }

@@ -1,0 +1,70 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+ul,li{list-style-type: none;padding: 0;margin: 0;}
+
+:root {
+  --main-color: hotpink;
+  /* --main-bg:linear-gradient(to right top, #540355, #56105a, #581a5f, #5a2364, #5c2a69);; */
+  --main-bg:#711c53;
+  --main-bg2:rgba(113, 28, 83,0.9);
+  --light-bg:rgba(252, 252, 252,1);
+  /* --main-bg2:rgba(0, 0, 0,0.7); */
+  --pane-padding: 5px 42px;
+}
+a{text-decoration: none;}
+body{position: relative;font-size: 14px;line-height: normal;font-family: Helvetica,Arial, sans-serif;color: #333;background-color: #fff;}
+.header{position: fixed;z-index: 3;transition: all 0.5s;top: 0;left: 0;right: 0;height: 50px;background:var(--main-bg2);color: #fff;}
+.sticky-header{position: fixed;left: 0;top:0;right:0}
+.container{max-width: 1200px;margin: 0 auto;}
+.flex-block-one{display: flex;justify-content: space-between;align-items: center;height: 50px;}
+
+.btn{appearance: none;border:0;cursor: pointer;border-radius: 5px;}
+.btn-header{padding: 10px 15px;background-color: #fff;color: #333;text-transform: uppercase;font-weight: 500;transition: all 0.3s;}
+.btn-header:hover{opacity: 0.9;}
+
+
+
+/***/
+.logo-wrap{color: #fff;}
+.nav-wrap{position: relative;display: flex;justify-content: right;}
+nav{display: flex;margin-right: 100px;align-items: center;}
+nav li{margin: 0 20px;position: relative;}
+nav li a{color: #fff;text-decoration: none;letter-spacing: 3px;text-transform: uppercase;}
+nav li a::after{content: "";position: absolute;background: #fff;width: 0;height: 2px;bottom: -7px;;display: block;left:50%;transform: translateX(-50%);transition: all 0.3s;opacity: 0;}
+nav li:hover a::after{width: 100%;opacity: 1;}
+
+/**/
+/* .section-one{background-image: linear-gradient(to left top, #091124, #0c1c2f, #0e263a, #103045, #123b50, #114056, #0f445c, #0d4962, #074865, #034869, #03476c, #06466f);color: #fff;} */
+.section-one{background:var(--main-bg);color: #fff;}
+.section-one{padding-top: 50px;}
+.flex-banner-block{display: flex;justify-content: stretch;height: 670px;align-items: stretch;}
+.contentblock{display: flex;flex-direction: column;justify-content: center;flex-basis: 50%;;text-transform: uppercase;}
+.contentblock h2,.contentblock h3,.contentblock button{margin-bottom: 20px;text-align: left;font-weight: normal;letter-spacing: 5px}
+.contentblock h2{font-size: 45px;}
+.contentblock h3{font-size: 17px;}
+.contentblock .btn-style-1 {max-width: 160px;padding: 12px 0;text-transform: uppercase;position: relative;cursor: pointer;letter-spacing: 3px;background-color: #fff;color: #333;font-weight: bold;text-align: center;transition: all 0.3s;}
+.contentblock .btn-style-1:hover{opacity: 0.9;}
+.imagebock{flex-basis: 50%;position: relative;}
+.imagebock img{position: absolute;max-width: 140%;right: 0;bottom: -33%;right: -20%;}
+
+/*section common*/
+section{padding:100px 0;position: relative;}
+section:first-child{padding: 0;}
+.section-head{font-size: 30px;text-transform: uppercase;letter-spacing: 5px;text-align: center;}
+.bg-white{background:#fff;}
+.bg-darkwhite{background: var(--light-bg);}
+.z-index-wrap{z-index: 2;position: relative;}
+section:first-child .z-index-wrap{z-index: 1;}
+
+/*section 2*/
+.inner-gird-wrap{position: relative;display: flex;justify-content: space-around;flex-wrap: wrap;}
+.inner-gird-wrap .card{flex-basis: 30%;}
+.card{position: relative;border-radius: 2px;border:0 solid #f6f6f6;padding:40px 20px;margin: 20px;transition: all 0.3s ease-in-out;text-align: center;}
+.card .titlet{font-size: 17px;font-weight: bold;letter-spacing: 3px;text-transform: uppercase;margin-bottom: 15px;transition: all 0.3s ease-in;}
+.card .desct{font-size: 15px;margin-bottom: 15px;letter-spacing: 1px;}
+.card .readmoret{color:var(--main-bg);text-transform: uppercase;letter-spacing: 2px;}
+.card .imageb{margin-bottom: 20px;}
+.card .imageb span{position: relative;overflow: hidden;padding: 20px;border-radius: 50%;border: 1px solid var(--main-bg);display: inline-block;transition:all .5s ease-in}
+.card .imageb i{font-size: 30px;color:var(--main-bg);}
+.card:hover{box-shadow: 0 10px 15px 0px #ccc;}
+.card:hover .imageb span{box-shadow: 0 0 3px 0px #333;background-color:var(--main-bg);transform: rotateY(180deg);}
+.card:hover .imageb i{color: #fff}
