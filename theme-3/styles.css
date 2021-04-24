@@ -19,7 +19,7 @@ body{position: relative;font-size: 14px;line-height: normal;font-family: Helveti
 
 .btn{appearance: none;border:0;cursor: pointer;border-radius: 5px;}
 .btn-header{padding: 10px 15px;background-color: #fff;color: #333;text-transform: uppercase;font-weight: 500;transition: all 0.3s;}
-.btn-header:hover{opacity: 0.9;}
+.btn-header:hover{color: #fff;background-color: #626ee3;}
 
 
 
@@ -41,8 +41,9 @@ nav li:hover a::after{width: 100%;opacity: 1;}
 .contentblock h2,.contentblock h3,.contentblock button{margin-bottom: 20px;text-align: left;font-weight: normal;letter-spacing: 5px}
 .contentblock h2{font-size: 45px;}
 .contentblock h3{font-size: 17px;}
-.contentblock .btn-style-1 {max-width: 160px;padding: 12px 0;text-transform: uppercase;position: relative;cursor: pointer;letter-spacing: 3px;background-color: #fff;color: #333;font-weight: bold;text-align: center;transition: all 0.3s;}
-.contentblock .btn-style-1:hover{opacity: 0.9;}
+.contentblock .btn-style-1 {max-width: 180px;padding: 12px 0;text-transform: uppercase;position: relative;cursor: pointer;letter-spacing: 3px;background-color: #fff;color: #333;font-weight: bold;text-align: center;transition: all 0.3s;box-shadow: 2px 3px 5px 0px #000;}
+.contentblock .btn-style-1:hover{color: #fff;background-color: #626ee3;}
+.contentblock .btn-style-1:hover i{margin-left: 2px;}
 .imagebock{flex-basis: 50%;position: relative;}
 .imagebock img{position: absolute;max-width: 140%;right: 0;bottom: -33%;right: -20%;}
 
